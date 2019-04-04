@@ -48,8 +48,6 @@ function resetCanvas() {
 function skip() {
     resetCanvas();
     setImage();
-    ModelShape = null;
-    drawnShape = null;
 }
 
 
