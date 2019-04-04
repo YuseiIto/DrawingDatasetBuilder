@@ -30,9 +30,6 @@ function setImage() {
     ctx.lineWidth = 1;
     ctx.strokeStyle = 'rgb(25,25,25)';
 
-    ModelShape = null;
-    ModelShape = Object.assign({}, modeltmp);
-
     ModelShape.width = random(canvas.width, 10);
     ModelShape.left = random(canvas.width - ModelShape.width - 10, 10);
     ModelShape.height = random(canvas.height, 10);
