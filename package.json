@@ -1,0 +1,19 @@
+{
+    "name": "drawingdatasetbuilder",
+    "version": "1.0.0",
+    "description": "機械学習で手書きを実装するときに使う道具。",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YuseiIto/DrawingDatasetBuilder.git"
+    },
+    "author": "Yusei Ito",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/YuseiIto/DrawingDatasetBuilder/issues"
+    },
+    "homepage": "https://github.com/YuseiIto/DrawingDatasetBuilder#readme"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <canvas id="cvs" width="500" height="500"> </canvas>
+    <br>
+
+    <div id="ctrlPanel ">
+        <input type="button" value="Complete" id="complete" onclick="complete();">
+        <input type="button" value="skip" onclick="skip();">
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBywUCixvVlhUsjLAJUOYlYdUPJsP6Lpp0",
+            authDomain: "appunti-notebook.firebaseapp.com",
+            databaseURL: "https://appunti-notebook.firebaseio.com",
+            projectId: "appunti-notebook",
+            storageBucket: "appunti-notebook.appspot.com",
+            messagingSenderId: "613525761920"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="./script.js "></script>
+</body>
+
+</html>
