@@ -1,5 +1,3 @@
-var ModelShape;
-
 //Firebas settings
 // Get a reference to the storage service, which is used to create references in your storage bucket
 var storage = firebase.storage();
@@ -9,7 +7,7 @@ var storageRef = storage.ref();
 //HumanWorks : ModelShape to drawnshape
 //Machine learns :  [Input] drawn shape [output]ModelShape
 
-var modeltmp = {
+var ModelShape = {
     left: 0,
     top: 0,
     width: 0,
