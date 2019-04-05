@@ -25,7 +25,7 @@ function random(max, min) {
 }
 
 function setImage() {
-    ctx.lineWidth = random(5, 1);
+    ctx.lineWidth = 1;
     ctx.strokeStyle = 'rgb(25,25,25)';
 
     ModelShape.width = random(canvas.width, 10);
@@ -130,7 +130,7 @@ window.onload = function() {
 
                 ctx.lineTo(Xpoint, Ypoint);
                 ctx.lineCap = "round";
-                ctx.lineWidth = defSize * 2;
+                ctx.lineWidth = random(14, 2);
                 ctx.strokeStyle = defColor;
                 ctx.stroke();
 
