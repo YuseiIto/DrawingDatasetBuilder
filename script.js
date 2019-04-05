@@ -116,8 +116,8 @@ window.onload = function() {
 
             Xpoint = e.layerX;
             Ypoint = e.layerY;
-
             ctx.moveTo(Xpoint, Ypoint);
+            defSize = random(14, 2);
         }
     }
 
@@ -130,8 +130,8 @@ window.onload = function() {
 
                 ctx.lineTo(Xpoint, Ypoint);
                 ctx.lineCap = "round";
-                ctx.lineWidth = random(14, 2);
                 ctx.strokeStyle = defColor;
+                ctx.lineWidth = defSize;
                 ctx.stroke();
 
             }
